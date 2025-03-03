@@ -161,10 +161,9 @@ p {
     }
     
     .button__links {
-        flex-direction: column;
+        flex-direction: row;
         bottom: 200px;
-        width: 100%; 
-        font-size: 16px;
+        
         
     }
     
