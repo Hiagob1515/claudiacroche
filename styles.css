@@ -156,6 +156,7 @@ p {
     .button__links {
         flex-direction: column;
         align-items: center;
+        top: 32px;
     }
     
     .logo__texto {
