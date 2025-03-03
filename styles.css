@@ -114,6 +114,7 @@ p {
         flex-direction: column;
         align-items: center;
         padding: 40px 0;
+        top: 50px;
     }
 }
 
@@ -133,6 +134,7 @@ p {
     .button__links {
         flex-direction: column;
         align-items: center;
+        top: 50px;
     }
     
     .logo__texto__texto {
