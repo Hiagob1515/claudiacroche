@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7c2c2;
+}
+
+.logo__texto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Yatra One", system-ui;
+}
+
+.logo__texto__texto{
+    font-size: 46px;
+}
+
+
+h1 {
+    position: absolute;
+    left: 300px;
+    text-align: center;
+    color: #5D001E;
+    font-size: 55px;
+}
+
+.button__links{
+    display: flex;
+    justify-content:start;
+    gap: 30px;
+    padding: 80px 25px
+
+    
+}
+
+.button button, .Whatsapp button  {
+    background-color: #5D001E;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.button button, .Instagram button {
+    background-color: #5D001E;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.button button:hover, .Instagram button:hover {
+    background-color: #004494;
+    transform: scale(1.05);
+}
+
+.button button:active, .Instagram button:active {
+    background-color: #004494;
+    transform: scale(0.98);
+}
+
+.button button:hover, .Whatsapp button:hover {
+    background-color: #004494;
+    transform: scale(1.05);
+}
+
+.button button:active, .Whatsapp button:active {
+    background-color: #004494;
+    transform: scale(0.98);
+}
+
+
+p {
+    font-family: "Dancing Script", cursive;
+    color: #5D001E;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    left: 600px;
+    bottom: 300px;
+}
+    
