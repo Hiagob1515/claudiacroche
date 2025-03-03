@@ -162,7 +162,7 @@ p {
     
     .button__links {
         flex-direction: column;
-        
+        bottom: 200px;
         
     }
     
