@@ -164,6 +164,7 @@ p {
         flex-direction: column;
         position: absolute;
         padding-bottom: 5px;
+        align-items: center;
         
         
         
