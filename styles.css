@@ -177,7 +177,7 @@ p {
     }
 
     .logo__logo__direita{
-        bottom: 100px;
+        display: none;
     }
 
 }
