@@ -161,7 +161,7 @@ p {
     }
     
     .button__links {
-        flex-direction: row;
+        flex-direction: column;
         bottom: 200px;
         
         
@@ -179,6 +179,10 @@ p {
 
     .logo__logo__direita{
         display: none;
+    }
+
+    .button button, .Instagram button{
+        bottom: 200px;
     }
 
    
