@@ -163,6 +163,8 @@ p {
     .button__links {
         flex-direction: column;
         bottom: 200px;
+        width: 100%; 
+        font-size: 16px;
         
     }
     
@@ -180,10 +182,8 @@ p {
         display: none;
     }
 
-    .btn {
-        width: 100%; 
-        font-size: 16px;
-    }
+   
+    
 
 }
 
