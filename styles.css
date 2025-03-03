@@ -153,6 +153,7 @@ p {
     p {
         display: flex;
         justify-content: center;
+        padding: auto;
         font-size: 1.rem;
         left: 50%;
         transform: translateX(-50%);
