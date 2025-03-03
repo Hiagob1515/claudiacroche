@@ -163,7 +163,7 @@ p {
     .button__links {
         flex-direction: column;
         align-items: center;
-        top: 200px;
+        
     }
     
     .logo__texto {
