@@ -151,7 +151,9 @@ p {
     }
     
     p {
-        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        font-size: 1.rem;
         left: 50%;
         transform: translateX(-50%);
         bottom: 50px;
