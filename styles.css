@@ -94,7 +94,22 @@ p {
     font-weight: bold;
     left: 600px;
     bottom: 300px;
+
+    
 }
+
+.rodape{
+    display: flex;
+    align-items: flex-end;
+    border-radius: 8px;
+    background-color: #5D001E;
+    color: white;
+    
+    
+
+}
+
+
 /* Estilos responsivos */
 @media screen and (max-width: 1024px) {
     h1 {
@@ -184,6 +199,14 @@ p {
     .logo__logo__direita{
         display: none;
     }
+
+    .rodape{
+        display: flex;
+        align-items: flex-end;
+        border-radius: 8px;
+        background-color: #5D001E;
+        color: white;
+     }
 
 }
 
