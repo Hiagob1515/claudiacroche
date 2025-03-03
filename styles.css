@@ -153,9 +153,8 @@ p {
     p {
         display: flex;
         justify-content: center;
-        padding: auto;
-        font-size: 1.rem;
-        left: 50%;
+        font-size: 1.5rem;
+        left: 55%;
         transform: translateX(-50%);
         bottom: 50px;
     }
