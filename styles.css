@@ -163,7 +163,8 @@ p {
     .button__links {
         flex-direction: column;
         position: absolute;
-        top:  10px;
+        padding-bottom: 50px;
+        
         
         
         
