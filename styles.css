@@ -20,7 +20,7 @@ body {
 }
 
 .logo__texto__texto{
-    font-size: 46px;
+    font-size: 2,5rem;
 }
 
 
@@ -29,7 +29,7 @@ h1 {
     left: 300px;
     text-align: center;
     color: #5D001E;
-    font-size: 55px;
+    font-size: 3rem;
 }
 
 .button__links{
@@ -44,7 +44,7 @@ h1 {
 .button button, .Whatsapp button  {
     background-color: #5D001E;
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     padding: 12px 24px;
     border: none;
@@ -56,7 +56,7 @@ h1 {
 .button button, .Instagram button {
     background-color: #5D001E;
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     padding: 12px 24px;
     border: none;
@@ -90,9 +90,23 @@ p {
     font-family: "Dancing Script", cursive;
     color: #5D001E;
     position: absolute;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: bold;
     left: 600px;
     bottom: 300px;
 }
+
+@media (max-width: 1200px) {
+    .logo__texto{
+        display: flex;
+        flex-direction: row;
+        
+    }
+}
+
+.logo__texto__texto{
+    font-size: 2rem;
+    
+}
+
     
