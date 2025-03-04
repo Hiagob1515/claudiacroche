@@ -142,7 +142,7 @@ body {
 
     .texto__texto{
         display: flex;
-        padding: 0px 50px;
+        padding: 0px 55px;
         font-size: 30px;
     }
 
@@ -154,7 +154,7 @@ body {
 
     .botoes__geral{
         display: flex;
-        padding: 0px 50px;
+        padding: 50px 200px;
         justify-content: center;
         width: 40px;
     }
