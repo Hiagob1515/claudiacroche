@@ -143,7 +143,7 @@ body {
     .texto__texto{
         display: flex;
         padding: 0px 55px;
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .text__decoration{
@@ -157,6 +157,12 @@ body {
         padding: 25px 202px;
         justify-content: center;
         width: 40px;
+    }
+
+    .galeria{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
     }
     
     }
