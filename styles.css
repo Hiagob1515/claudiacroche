@@ -1,215 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
 
-/* Reset básico */
 * {
-    margin: 0;
+    margin: 0; 
     padding: 0;
     box-sizing: border-box;
 }
+
 
 body {
     background-color: #f7c2c2;
 }
 
+
 .logo__texto{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+}
+
+.texto__texto{
+    font-size: 50px;
     font-family: "Yatra One", system-ui;
-}
-
-.logo__texto__texto{
-    font-size: 2,5rem;
-}
-
-
-h1 {
-    position: absolute;
-    left: 300px;
-    text-align: center;
-    color: #5D001E;
-    font-size: 3rem;
-}
-
-.button__links{
-    display: flex;
-    justify-content:start;
-    gap: 30px;
-    padding: 80px 25px
-
+    color: #5d001e;
     
 }
 
-.button button, .Whatsapp button  {
-    background-color: #5D001E;
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.3s, transform 0.2s;
+.botoes__geral{
+    position: relative;
+    display: flex;
+    padding: 0px 35px;
+    gap: 10px;
 }
 
-.button button, .Instagram button {
-    background-color: #5D001E;
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.3s, transform 0.2s;
+.botao__Instagram:hover{
+    transform: scale(1.2);
 }
-
-.button button:hover, .Instagram button:hover {
-    background-color: #004494;
-    transform: scale(1.05);
-}
-
-.button button:active, .Instagram button:active {
-    background-color: #004494;
-    transform: scale(0.98);
-}
-
-.button button:hover, .Whatsapp button:hover {
-    background-color: #004494;
-    transform: scale(1.05);
-}
-
-.button button:active, .Whatsapp button:active {
-    background-color: #004494;
-    transform: scale(0.98);
+.botao__Whatsapp:hover{
+    transform: scale(1.2);
 }
 
 
-p {
+.botao__Instagram{
+    background-color: #5d001e;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.botao__Whatsapp{
+    background-color: #5d001e;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+
+.text__decoration{
+    font-size: 32px;
     font-family: "Dancing Script", cursive;
-    color: #5D001E;
-    position: absolute;
-    font-size: 2rem;
-    font-weight: bold;
+    position: relative;
     left: 600px;
-    bottom: 300px;
+    bottom: 100px;
+}
 
+.galeria{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 0fr 0fr 0fr;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 2em;
+    gap: 10px;
+}
+
+.imagem:hover{
+    transform: scale(1.1);
+}
+      
+    
+    
+  
+
+  .imagem{
+    border: 4px solid #5d001e;
+    border-radius: 8px;
+
+  }
+  
+    
+
+
+.footer__rodape{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: 800;
+    color: #5d001e;
+    left: 50px;
+    bottom: 0px;
     
 }
 
 .rodape{
     display: flex;
-    align-items: flex-end;
-    border-radius: 8px;
-    background-color: #5D001E;
-    color: white;
-    
-    
-
+    align-self: flex-end;
 }
-
-
-/* Estilos responsivos */
-@media screen and (max-width: 1024px) {
-    h1 {
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 2.5rem;
-    }
-    
-    p {
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 1.8rem;
-        bottom: 250px;
-    }
-    
-    .button__links {
-        flex-direction: column;
-        align-items: center;
-        padding: 40px 0;
-        top: 50px;
-    }
-
-    
-}
-
-@media screen and (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
-        text-align: center;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    
-    p {
-        font-size: 1.5rem;
-        bottom: 200px;
-    }
-    
-    .button__links {
-        flex-direction: column;
-        align-items: center;
-        top: 50px;
-    }
-    
-    .logo__texto__texto {
-        font-size: 2rem;
-    }
-}
-/*galaxy A33*/
-@media screen and (max-width: 480px) {
-    h1 {
-        font-size: 1.5rem;
-        text-align: center;
-        bottom: 430px;
-    }
-    
-    p {
-        display: flex;
-        justify-content: center;
-        font-size: 1.5rem;
-        left: 53%;
-        transform: translateX(-50%);
-        bottom: 200px;
-    }
-    
-    .button__links {
-        flex-direction: column;
-        position: absolute;
-        padding-bottom: 5px;
-        align-items: center;
-        
-        
-        
-        
-    }
-    
-    .logo__texto {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .logo__texto__texto {
-        font-size: 1.5rem;
-    }
-
-    .logo__logo__direita{
-        display: none;
-    }
-
-    .rodape{
-        display: flex;
-        align-items: flex-end;
-        border-radius: 8px;
-        background-color: #5D001E;
-        color: white;
-     }
-
-}
-
-    
-
-
