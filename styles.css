@@ -123,5 +123,11 @@ body {
     .logo__direita{
         display: none;
     }
+
+    .logo__esquerda{
+        display: block;
+        width: 150px;
+        
+    }
     
 }
