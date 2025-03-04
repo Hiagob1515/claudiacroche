@@ -135,20 +135,20 @@ body {
     .logo__esquerda{
         display: flex;
         justify-content: center;
-        width: 500px;
+        width: 50px;
         
     }
 
     .texto__texto{
         display: flex;
         justify-content: center;
-        font-size: 60px;
+        font-size: 32px;
     }
 
     .text__decoration{
         display: flex;
         justify-content: center;
-        font-size: 40px;
+        font-size: 24px;
     }
 
     .botoes__geral{
