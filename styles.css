@@ -125,7 +125,7 @@ body {
 
     .logo__texto{
         display: flex;
-        align-items: center;
+        flex-direction: column;
     }
 
     .logo__direita{
