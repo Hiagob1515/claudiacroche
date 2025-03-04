@@ -143,7 +143,7 @@ body {
     .texto__texto{
         display: flex;
         padding: 0px 55px;
-        font-size: 10px;
+        font-size: 20px;
     }
 
     .text__decoration{
