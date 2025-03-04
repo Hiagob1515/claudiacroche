@@ -118,16 +118,21 @@ body {
 .texto__texto{
     font-size: 32px;
     text-align: center;
-    }
+}
 
-    .logo__direita{
-        display: none;
-    }
+.logo__direita{
+    display: none;
+}
 
-    .logo__esquerda{
-        display: block;
-        width: 150px;
+.logo__esquerda{
+   display: block;
+  width: 150px;
 
-    }
+}
+
+.galeria{
+    display: flex;
+    justify-content: space-between;
+}
     
 }
