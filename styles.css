@@ -126,6 +126,7 @@ body {
     .logo__texto{
         display: flex;
         flex-direction: column-reverse;
+        justify-content: center;
     }
 
     .logo__direita{
@@ -140,8 +141,6 @@ body {
     }
 
     .texto__texto{
-        display: flex;
-        justify-content: center;
         font-size: 30px;
     }
 
