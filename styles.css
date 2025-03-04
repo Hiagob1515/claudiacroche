@@ -112,3 +112,15 @@ body {
     display: flex;
     align-self: flex-end;
 }
+
+@media (max-width: 1200px){
+
+.texto__texto{
+    font-size: 32px;
+}
+
+.logo__direito{
+    display: none;
+}
+
+}
