@@ -113,14 +113,11 @@ body {
     align-self: flex-end;
 }
 
-@media (max-width: 1200px){
+@media screen (max-width: 480px) {
 
 .texto__texto{
     font-size: 32px;
-}
-
-.logo__direito{
-    display: none;
-}
-
+    text-align: center;
+    }
+    
 }
