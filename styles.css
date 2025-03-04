@@ -118,7 +118,6 @@ body {
 
 
 
-
 @media (max-width: 768px) {
     body {
         background-color: #f7c2c2;
@@ -140,24 +139,24 @@ body {
         width: 250px;
     }
 
-    .texto__texto {
+    .conteudo-central {
         display: flex;
-        padding: 0px 55px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .texto__texto {
         font-size: 20px;
     }
 
     .text__decoration {
-        display: flex;
-        justify-content: center;
         font-size: 24px;
-        align-self: center;
-        margin: 20px 0;
     }
 
     .botoes__geral {
-        display: flex;
         padding: 25px 202px;
-        justify-content: center;
         width: 40px;
     }
 
