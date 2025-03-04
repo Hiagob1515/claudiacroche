@@ -123,6 +123,11 @@ body {
         background-color: #f7c2c2;
     }
 
+    .logo__texto{
+        display: flex;
+        align-items: center;
+    }
+
     .logo__direita{
         display: none;
     }
