@@ -154,7 +154,7 @@ body {
 
     .botoes__geral{
         display: flex;
-        padding: 50px 200px;
+        padding: 25px 202px;
         justify-content: center;
         width: 40px;
     }
