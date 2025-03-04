@@ -59,6 +59,7 @@ body {
 
 
 .text__decoration{
+    display: flex;
     font-size: 32px;
     font-family: "Dancing Script", cursive;
     position: relative;
