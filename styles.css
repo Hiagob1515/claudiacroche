@@ -120,8 +120,8 @@ body {
 
 @media (max-width: 768px) {
     body {
-        font-size: 18px;
-        background-color: #e0e0e0;
+        height: 50%;
+        background-color: #f7c2c2;
     }
     
     }
