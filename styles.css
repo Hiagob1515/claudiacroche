@@ -277,7 +277,6 @@ body {
     }
 }
 
-
 .slider{
     margin: 0 auto;
     width: 300px;
@@ -304,6 +303,8 @@ body {
     
 .slide img{
     width: 1300px;
+    display: flex;
+    transition: transform 1s ease-in-out;
    
 }
 
