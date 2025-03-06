@@ -302,7 +302,7 @@ body {
 .manual-navigation{
  position: absolute;
  width: 100px;
- margin-top: -40px;
+ top: 440px;
  display: flex;
  justify-content: center;
 
@@ -310,7 +310,7 @@ body {
 
 .manual-btn{
     border: 2px solid #5d001e;
-    padding: 5px;
+    padding: 2px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
