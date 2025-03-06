@@ -304,6 +304,7 @@ body {
     
 .slide img{
     width: 300px;
+    gap: 10px;
 }
 
 .manual-navigation{
