@@ -263,8 +263,9 @@ body {
         font-size: 20px;
     }
 
-    .text__decoration {
-        display: none;
+    .text__decoration{
+        font-family: "Dancing Script", cursive;
+        font-size: 32px;
     }
 
     .botoes__geral {
