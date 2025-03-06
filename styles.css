@@ -280,8 +280,8 @@ body {
 
 .slider{
     margin: 0 auto;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     overflow: hidden;
 }
 
@@ -308,7 +308,7 @@ body {
 
 .manual-navigation{
  position: absolute;
- width: 100px;
+ width: 50px;
  margin-top: -40px;
  display: flex;
  justify-content: center;
@@ -372,7 +372,7 @@ body {
 
 .navigation-auto{
     position: absolute;
-    width: 100px;
+    width: 50px;
     margin-top: 360px;
     display: flex;
     justify-content: center;
