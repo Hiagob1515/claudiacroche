@@ -286,7 +286,7 @@ body {
 }
 
 .slides {
-    width: 1000%;
+    width: 100%;
     /* Ajuste para garantir a largura necessária para todas as imagens */
     display: flex;
     transition: transform 1s ease-in-out;
