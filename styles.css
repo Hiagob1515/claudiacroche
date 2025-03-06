@@ -5,6 +5,8 @@
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
+    
+    
 }
 
 
@@ -301,7 +303,7 @@ body {
 
 .manual-navigation{
  position: absolute;
- width: 50px;
+ width: 300px;
  gap: none;
  top: 655px;
  display: flex;
