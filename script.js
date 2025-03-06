@@ -1,14 +1,21 @@
-let count = 1;
-document.getElementById("radio1").checked = true;
+document.addEventListener("DOMContentLoaded", function () {
+    let count = 1;
+    const totalRadios = 10; // Alterar se houver mais ou menos opções
 
-setInterval(function() {
-    nextImage();
-}, 5000);
+    document.getElementById("radio1").checked = true;
 
-function nextImage() {
-    count++;
-    if (count > 10) {
-        count = 1;
+    setInterval(function () {
+        nextImage();
+    }, 5000);
+
+    function nextImage() {
+        count++;
+        if (count > totalRadios) {
+            count = 1;
+        }
+        let radio = document.getElementById("radio" + count);
+        if (radio) {
+            radio.checked = true;
+        }
     }
-    document.getElementById("radio" + count).checked = true;
-}
+});
