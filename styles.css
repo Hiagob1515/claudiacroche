@@ -337,7 +337,7 @@ body {
 
 .navigation-auto{
     position: absolute;
-    width: 800px;
+    width: 50px;
     margin-top: 360px;
     display: flex;
     justify-content: center;
