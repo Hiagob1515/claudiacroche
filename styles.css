@@ -307,10 +307,12 @@ body {
 
 .manual-navigation {
     position: absolute;
-    width: 100px; /* Mantido 100px para melhor visibilidade */
-    margin-top: -40px;
+    bottom: 10px; /* Mantido 100px para melhor visibilidade */
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 .manual-btn {
@@ -318,7 +320,7 @@ body {
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 1s;
+    transition: backgrond-color 0.3s;
 }
 
 .manual-btn:not(:last-child) {
