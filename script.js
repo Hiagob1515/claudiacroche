@@ -1,24 +1,17 @@
-// Função para abrir o modal
-function abrirModal(src, descricao) {
-    document.getElementById("modal").style.display = "flex";
-    document.getElementById("imagemModal").src = src;
-    document.getElementById("descricaoModal").innerText = descricao;
+let count = 1;
+document.getElementById("radio1").checked = true;
+
+setInterval( function(){
+
+}, 5000)
+
+
+function nextImage(){
+    count++;
+    if(count>10){
+        count = 1;
 }
 
-// Função para fechar o modal
-function fecharModal() {
-    document.getElementById("modal").style.display = "none";
-}
+document.getElementById("radio"+count).checked = true;
 
-// Função para abrir o modal com a imagem e descrição
-function abrirModal(src, descricao) {
-    document.getElementById("modal").style.display = "flex";
-    document.getElementById("imagemModal").src = src;
-    document.getElementById("descricaoModal").innerText = descricao;
 }
-
-// Função para fechar o modal
-function fecharModal() {
-    document.getElementById("modal").style.display = "none";
-}
-

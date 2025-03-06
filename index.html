@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CLAUDIA CROCHÊ</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="./script.js"></script>
 </head>
 <body>
 
@@ -22,18 +23,54 @@
     <h2 class="text__decoration">levando carinho a cada ponto.🥰</h2>
 </body>
 
-    <div class="galeria">
-        <img class="imagem" src="tapete1.png" alt="passadeira" width="250px">
-        <img class="imagem" src="tapete2.png" alt="tapete oval" width="250px">
-        <img class="imagem" src="tapete3.png" alt="tapete oval" width="250px">
-        <img class="imagem" src="tapete4.png" alt="tapete oval" width="250px">
-        <img class="imagem" src="tapete5.png" alt="tapete oval" width="250px">
-        <img class="imagem" src="tapete6.png" alt="tapete oval" width="250px">
-        <img class="imagem" src="tapete7.png" alt="tapete oval" width="250px">
-        <img class="imagem" src="tapete8.png" alt="tapete quadrado" width="250px">
-        <img class="imagem" src="tapete9.png" alt="tapete quadrado" width="250px">
-        <img class="imagem" src="tapete10.png" alt="tapete quadrado" width="250px">
+<div class="slider">
+
+    <div class="slides">
+    <!--radio buttons-->
+    <input type="radio" name="radio-btn" id="radio1">
+    <input type="radio" name="radio-btn" id="radio2">
+    <input type="radio" name="radio-btn" id="radio3">
+    <input type="radio" name="radio-btn" id="radio4">
+    <!--fim radio buttons -->
+
+    <!--slide images-->
+    <div class="slide first">
+            <img src="tapete1.png" alt="jogo passadeira 3 peças">
+        </div>
+        <div class="slide">
+            <img src="tapete2.png" alt="tapete oval colorido">
+        </div>
+        <div class="slide">
+            <img src="tapete3.png" alt="tapete oval colorido">
+        </div>
+        <div class="slide">
+            <img src="tapete10.png" alt="tapete quadrado">
+        </div>
+        <!--fim slide images-->
+
+        <!--navigation auto-->
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+        </div>
+
     </div>
+
+
+    <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+    </div>
+
+</div>
+
+  <script src="script.js"></script>  
+</body>
+
 
     <div class="footer__rodape">
         <footer class="rodape">© 2025 - Todos os direitos reservados Desenvolvido Por  Hiago Batista</footer>
