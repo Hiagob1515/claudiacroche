@@ -303,7 +303,7 @@ body {
 
 .manual-navigation{
  position: absolute;
- width: 300px;
+ width: 150px;
  gap: none;
  top: 655px;
  display: flex;
