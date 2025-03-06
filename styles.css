@@ -300,9 +300,9 @@ body {
 }
 
 .manual-navigation{
- position:fixed;
+ position:absolute;
  width: 100px;
- margin-top: -40px;
+ 
  display: flex;
  justify-content: center;
 
