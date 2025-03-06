@@ -270,6 +270,8 @@ body {
     .botoes__geral {
         padding: 25px 202px;
         width: 40px;
+        display: flex;
+        justify-content: center;
     }
 
 }
