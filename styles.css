@@ -65,8 +65,10 @@ body {
     display: flex;
     font-size: 32px;
     font-family: "Dancing Script", cursive;
+    color: #5d001e;
     position: relative;
-    left: 600px;
+    margin-top: 80px;
+    left: 310px;
     bottom: 100px;
 }
 
@@ -266,7 +268,8 @@ body {
     .text__decoration{
         font-family: "Dancing Script", cursive;
         font-size: 32px;
-    }
+        
+        
 
     .botoes__geral {
         padding: 25px 202px;
@@ -413,3 +416,9 @@ body {
 }
 
 
+
+
+
+
+
+}
