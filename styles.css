@@ -300,7 +300,7 @@ body {
 }
 
 .manual-navigation{
- position: relative;
+ position:fixed;
  width: 100px;
  margin-top: -40px;
  display: flex;
