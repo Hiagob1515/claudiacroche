@@ -300,17 +300,16 @@ body {
 }
 
 .manual-navigation{
- position:absolute;
+ position: absolute;
  width: 100px;
  margin-top: -40px;
  display: flex;
  justify-content: center;
- align-items: center;
 
 }
 
 .manual-btn{
-    border: 2px solid #f7c2c2;
+    border: 2px solid #5d001e;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -367,7 +366,7 @@ body {
 .navigation-auto{
     position: absolute;
     width: 100px;
-    margin-top: 360px;
+    margin-top: 800px;
     display: flex;
     justify-content: center;
 }
