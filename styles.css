@@ -286,7 +286,7 @@ body {
 }
 
 .slides {
-    width: 100%;
+    width: 1000%;
     /* Ajuste para garantir a largura necessária para todas as imagens */
     display: flex;
     transition: transform 1s ease-in-out;
@@ -297,37 +297,28 @@ body {
     flex-shrink: 0;
 }
 
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+
+}
+    
 .slide img {
     width: 100%;
     height: auto;
 }
 
 .manual-navigation{
-    position: absolute;
-    width: 100px;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
-   
-   }
-   
-   .manual-btn{
-       border: 2px solid #f7c2c2;
-       padding: 5px;
-       border-radius: 10px;
-       cursor: pointer;
-       transition: 1s;
-   }
-   
-   .manual-btn:not(:last-child){
-       margin-right: 40px;
-   }
-   
-   .manual-btn:hover{
-       background-color: #5d001e;
-   }
+ position: absolute;
+ width: 50px;
+ margin-top: -40px;
+ display: flex;
+ justify-content: center;
 
-   .navigation-auto div{
+}
+
+.manual-btn{
     border: 2px solid #f7c2c2;
     padding: 5px;
     border-radius: 10px;
@@ -335,16 +326,12 @@ body {
     transition: 1s;
 }
 
-.navigation-auto{
-    position: absolute;
-    width: 50px;
-    margin-top: 360px;
-    display: flex;
-    justify-content: center;
+.manual-btn:not(:last-child){
+    margin-right: 40px;
 }
 
-.navigation-auto div:not(:last-child){
-    margin-right: 40px;
+.manual-btn:hover{
+    background-color: #5d001e;
 }
 
 /* Ajustando a navegação para exibir uma imagem por vez */
@@ -379,4 +366,53 @@ body {
     transform: translateX(-900%);
 }
 
+.navigation-auto div{
+    border: 2px solid #f7c2c2;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
 
+.navigation-auto{
+    position: absolute;
+    width: 50px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ navigation-auto .auto-btn1{
+    background-color: #ffffff;
+}
+#radio2:checked ~ navigation-auto .auto-btn2{
+    background-color: #ffffff;
+}
+#radio3:checked ~ navigation-auto .auto-btn3{
+    background-color: #ffffff;
+}
+#radio4:checked ~ navigation-auto .auto-btn4{
+    background-color: #ffffff;
+}
+#radio5:checked ~ navigation-auto .auto-btn5{
+    background-color: #ffffff;
+}
+#radio6:checked ~ navigation-auto .auto-btn6{
+    background-color: #ffffff;
+}
+#radio7:checked ~ navigation-auto .auto-btn7{
+    background-color: #ffffff;
+}
+#radio8:checked ~ navigation-auto .auto-btn8{
+    background-color: #ffffff;
+}
+#radio9:checked ~ navigation-auto .auto-btn9{
+    background-color: #ffffff;
+}
+#radio10:checked ~ navigation-auto .auto-btn10{
+    background-color: #ffffff;
+} 
