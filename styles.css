@@ -301,7 +301,8 @@ body {
 
 .manual-navigation{
  position: absolute;
- width: 100px;
+ width: 50px;
+ gap: none;
  top: 655px;
  display: flex;
  justify-content: center;
