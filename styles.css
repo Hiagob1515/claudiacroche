@@ -286,8 +286,8 @@ body {
 }
 
 .slides{
-    width: 400%;
-    height: 400px;
+    width: 300%;
+    height: 300px;
     display: flex;
 }
 
@@ -303,12 +303,12 @@ body {
 }
     
 .slide img{
-    width: 800px;
+    width: 300px;
 }
 
 .manual-navigation{
  position: absolute;
- width: 800px;
+ width: 300px;
  margin-top: -40px;
  display: flex;
  justify-content: center;
@@ -372,7 +372,7 @@ body {
 
 .navigation-auto{
     position: absolute;
-    width: 800px;
+    width: 300px;
     margin-top: 360px;
     display: flex;
     justify-content: center;
