@@ -269,6 +269,7 @@ body {
         display: flex;
         font-size: 32px;
         font-family: "Dancing Script", cursive;
+        right: 100px;
         color: #5d001e;
         position: relative;
         margin-top: 80px;
