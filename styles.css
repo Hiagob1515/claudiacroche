@@ -267,13 +267,13 @@ body {
 
     .text__decoration{
         display: flex;
-        font-size: 32px;
+        font-size: 28px;
         font-family: "Dancing Script", cursive;
-        right: 100px;
+        left: 8px;
         color: #5d001e;
         position: relative;
         margin-top: 80px;
-        bottom: 100px;
+        bottom: 70px;
     }
         
         
